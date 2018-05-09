@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.blogbasbas.carimasjid.activity.listsurah.QuranActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_surah"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="10dp"
+        tools:listitem="@layout/row_list_ayat"/>
+</LinearLayout>

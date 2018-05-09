@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008282">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/linearLayout"
+        android:layout_alignTop="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="43dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fajr"
+            android:id="@+id/fajr"
+            android:textSize="@dimen/font_size_medium"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/sunrise"
+            android:layout_alignStart="@+id/sunrise"
+            android:layout_marginLeft="0dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunrise"
+            android:textSize="@dimen/font_size_medium"
+            android:id="@+id/sunrise"
+            android:layout_below="@+id/fajr"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dhuhr"
+            android:textSize="@dimen/font_size_medium"
+            android:id="@+id/dhuhr"
+            android:layout_below="@+id/sunrise"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asr"
+            android:textSize="@dimen/font_size_medium"
+            android:id="@+id/asr"
+            android:layout_below="@+id/dhuhr"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunset"
+            android:textSize="@dimen/font_size_medium"
+            android:id="@+id/sunset"
+            android:layout_below="@+id/asr"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maghrib"
+            android:id="@+id/maghrib"
+            android:textSize="@dimen/font_size_medium"
+            android:layout_below="@+id/sunset"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Isha"
+            android:id="@+id/Isha"
+            android:textSize="@dimen/font_size_medium"
+            android:layout_below="@+id/maghrib"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_toEndOf="@+id/linearLayout"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="129dp"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView1"
+            android:textSize="@dimen/font_size_medium"
+            android:layout_above="@+id/sunrise"
+            android:layout_toRightOf="@+id/dhuhr"
+            android:layout_toEndOf="@+id/dhuhr"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView2"
+            android:textSize="@dimen/font_size_medium"
+            android:layout_alignBottom="@+id/sunrise"
+            android:layout_toRightOf="@+id/maghrib"
+            android:layout_toEndOf="@+id/maghrib"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView3"
+            android:textSize="@dimen/font_size_medium"
+            android:layout_alignBottom="@+id/dhuhr"
+            android:layout_toRightOf="@+id/sunrise"
+            android:layout_toEndOf="@+id/sunrise"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView4"
+            android:textSize="@dimen/font_size_medium"
+            android:layout_below="@+id/dhuhr"
+            android:layout_toRightOf="@+id/Isha"
+            android:layout_toEndOf="@+id/Isha"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView5"
+            android:textSize="@dimen/font_size_medium"
+            android:layout_below="@+id/textView4"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_alignStart="@+id/textView6"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView6"
+            android:textSize="@dimen/font_size_medium"
+
+            android:layout_alignTop="@+id/maghrib"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView7"
+            android:textSize="@dimen/font_size_medium"
+            android:layout_alignTop="@+id/Isha"
+            android:layout_toRightOf="@+id/sunset"
+            android:layout_toEndOf="@+id/sunset"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+   <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+
+/>
+</RelativeLayout>
