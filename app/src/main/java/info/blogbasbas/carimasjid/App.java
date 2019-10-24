@@ -10,6 +10,8 @@ import java.io.InputStreamReader;
 import info.blogbasbas.carimasjid.database.DatabaseHelper;
 import info.blogbasbas.carimasjid.utils.PreferenceApp;
 
+//bagian ini untuk memudahkan saja, tidak semua apps membutuhkan file ini
+// akan tetapi apps lebih bagus pakai ini
 
 public class App extends Application {
 
